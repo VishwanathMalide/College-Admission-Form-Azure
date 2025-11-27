@@ -11,7 +11,7 @@ jobs:
     steps:
 
     - name: chekout code
-      uses: actions/chekout@v3
+      uses: actions/checkout@v3
 
     - name: Login into Docker Hub
       uses: docker/login-action@v3

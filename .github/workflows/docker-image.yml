@@ -21,7 +21,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker bulid \
+        docker build \
           -t vishwanathmalide/devops-collage-form:v1.1.0 
           .
           

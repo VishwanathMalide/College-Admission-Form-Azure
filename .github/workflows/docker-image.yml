@@ -24,6 +24,7 @@ jobs:
         docker bulid \
           -t vishwanathmalide/devops-collage-form:v1.1.0 
           .
+          
     - name: Push docker image to docker Hub
       run: |
         docker push vishwanathmalide/devops-collage-form:v1.1.0 
